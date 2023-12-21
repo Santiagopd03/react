@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700;800;900&display=swap");
+
+*{
+    font-family: "Rubik", sans-serif;
+}
+
+.navbar {
+    background-color:#8E44AD;
+    color:aliceblue;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links {
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.links:hover {
+    background-color: #c691dd;
+}
+
+.botones {
+    background-color: #b288c4;
+    border-radius: 6px;
+    padding: 5px;
+    color: white;
+    cursor: pointer;
+    border: solid;
+    
+}
+
+.botones:hover {
+    background-color: #9f00e4;  
+}
+
+
+.border{
+    color: rgb(100, 98, 98);
+}
+
+
+.card {
+    font-size: small;
+}
+
+.card-text {
+    font-size: 15px;
+    
+}
+
+
+.card-body {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.card-title {
+    color: rgb(100, 98, 98);
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.cantidad {
+    color: black;
+    font-size: 15px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.btn-icrementar {
+    color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.btn-decrementar{
+    color: red;
+    margin: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin: 5rem;
+    border-radius: 1rem;
+}
+
+
+
